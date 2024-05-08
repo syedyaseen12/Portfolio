@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+ h2, h3 {
+    color: #007bff;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #007bff;
+    color: #fff;
+}
+.profile-photo {
+    width: 150px; /* Adjust as needed */
+    height:150px; /* Adjust as needed */
+    border-radius: 50%; /* Makes the image round (for a circular profile photo) */
+    overflow: hidden; /* Ensures the image stays within the defined circle */
+    margin: 0 auto 20px; /* Center align and add margin below */
+}
+
+.profile-photo img {
+    width: 100%; /* Ensures the image fills the container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra space below the image */
+}
